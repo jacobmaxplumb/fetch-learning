@@ -1,0 +1,18 @@
+{
+  "name": "learning-fetch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "backend": "json-server db.json --watch -p 9000",
+    "kill": "kill-port 9000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "json-server": "^1.0.0-beta.1",
+    "kill-port": "^2.0.1"
+  }
+}
